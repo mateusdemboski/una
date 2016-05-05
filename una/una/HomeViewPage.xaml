@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="una.HomeViewPage">
+  <StackLayout>
+    <Button x:Name="btnCadastro" Text="Cadastro" Clicked="OnCadastro"></Button>
+    <Button x:Name="btnListagem" Text="Listagem" Clicked="OnListagem"></Button>
+  </StackLayout>
+</ContentPage>
